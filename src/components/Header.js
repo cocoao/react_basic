@@ -9,7 +9,12 @@ class Header extends Component{
     return(
       // 최상위 태그는 모든 태그를 포함하는 하나의 태그만 있어야한다.
       <header>
-        <h1>This is Header Area..</h1>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+        <h1>MOVIE</h1>
+        <div class="searchBox">
+          <input></input>
+          <i class='fa fa-search'></i>
+        </div>
       </header>
     )
   }
